@@ -11,18 +11,15 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 
 ---
 
-```bash
-# ✅ Success (2xx)
+## ✅ Success (2xx)
 
 | Code | Status     | Description                                               |
 |------|------------|-----------------------------------------------------------|
 | 200  | OK         | The request was successful                                |
 | 201  | Created    | A new resource was successfully created                   |
 | 204  | No Content | The request was successful, but no content is returned    |
-```
 
-```bash
-# ❌ Client Errors (4xx)
+##  ❌ Client Errors (4xx)
 
 | Code | Status             | Description                                                |
 | ---- | ------------------ | ---------------------------------------------------------- |
@@ -32,10 +29,8 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 | 404  | Not Found          | The requested resource could not be found.                 |
 | 405  | Method Not Allowed | The HTTP method is not allowed for the requested resource. |
 
-```
 
-```bash
-# 💥 Server Errors (5xx)
+##  💥 Server Errors (5xx)
 
 | Code | Status                | Description                                                              |
 | ---- | --------------------- | ------------------------------------------------------------------------ |
@@ -43,7 +38,6 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 | 502  | Bad Gateway           | Received an invalid response from the upstream server.                   |
 | 503  | Service Unavailable   | The server is temporarily unavailable (overloaded or under maintenance). |
 | 504  | Gateway Timeout       | The upstream server failed to respond in time.                           |
-```
 
 ---
 
