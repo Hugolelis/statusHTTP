@@ -11,7 +11,9 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 
 ---
 
-## ✅ Success (2xx)
+## 📝 Table Status
+
+### ✅ Success (2xx)
 
 | Code | Status     | Description                                               |
 |------|------------|-----------------------------------------------------------|
@@ -19,7 +21,7 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 | 201  | Created    | A new resource was successfully created                   |
 | 204  | No Content | The request was successful, but no content is returned    |
 
-##  ❌ Client Errors (4xx)
+###  ❌ Client Errors (4xx)
 
 | Code | Status             | Description                                                |
 | ---- | ------------------ | ---------------------------------------------------------- |
@@ -30,7 +32,7 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 | 405  | Method Not Allowed | The HTTP method is not allowed for the requested resource. |
 
 
-##  💥 Server Errors (5xx)
+###  💥 Server Errors (5xx)
 
 | Code | Status                | Description                                                              |
 | ---- | --------------------- | ------------------------------------------------------------------------ |
