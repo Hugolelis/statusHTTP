@@ -1,8 +1,12 @@
-![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg) ![Status](https://img.shields.io/badge/status-completed-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
-
 # 📡HTTP Status Codes
 
-### Description
+![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg) ![Status](https://img.shields.io/badge/status-completed-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+> HTTP Status Codes provide a universal language for communicating the outcome of requests.
+
+---
+
+### 📚 About
 This table lists the most common HTTP status codes used in APIs and web applications. They help developers understand the outcome of client-server interactions and diagnose issues more easily.
 
 ---
@@ -15,7 +19,6 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 | 201 🎉 | Created    | A new resource was successfully created.                      |
 | 204 💤 | No Content | The request was successful, but there is no content to return.|
 
----
 
 ## ❌ Client Errors (4xx)
 
@@ -27,7 +30,6 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 | 404 🕳️ | Not Found           | The requested resource could not be found.                         |
 | 405 🙅 | Method Not Allowed  | The HTTP method is not allowed for the requested resource.         |
 
----
 
 ## 💥 Server Errors (5xx)
 
@@ -40,7 +42,7 @@ This table lists the most common HTTP status codes used in APIs and web applicat
 
 ---
 
-### Clone the repository
+## 🖥️ Clone the repository
 
 ```bash
 git clone https://github.com/Hugolelis/statusHTTP.git
